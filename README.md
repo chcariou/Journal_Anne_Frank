@@ -1,7 +1,7 @@
 # Journal d'Anne Frank
 (en cours de construction)
 
-<b>1</b> - Récupération du fichier ePub mis en ligne sur affordance.info et transformation en variable texte. Simple avec les librairies <u>rvest</u> et stringr.
+<b>1</b> - Récupération du fichier ePub mis en ligne sur affordance.info et transformation en variable texte. Simple avec les librairies rvest et stringr.
 
 2 - Réorganisation du journal 1/2 : Id_jour, Id_paragraphe, Paragraphe. Simple puisque le fichier de base est structuré de la sorte.
 
