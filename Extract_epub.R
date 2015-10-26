@@ -1,7 +1,9 @@
 # Chargement des librairies
 
-	library(rvest) # pour lire au format texte les fichiers xhtml
-	library(stringr) # pour restructurer le format texte
+	require(rvest) # pour lire au format texte les fichiers xhtml
+	require(stringr) # pour restructurer le format texte
+
+Extract_Anne_Frank <- function() {
 
 # Récupération du Journal d'Anne Frank mis en ligne par Affordance.info au format ePub
 # Un fichier ePub n'est autre qu'un dossier zip qui contient des fichiers css, html, jpg...
@@ -36,3 +38,8 @@
 # Le journal d'Anne Frank version non censurée avec ajouts : 1 ligne équivaut à un paragraphe / 1 retour à la ligne
 
 	Journal <- journal03
+
+
+return(Journal)
+
+}
